@@ -7,14 +7,7 @@ import java.io.Serializable;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * <p>
- * 角色资源表
- * </p>
- *
- * @author baomidou
- * @since 2024-05-17
- */
+
 @Getter
 @Setter
 @TableName("role_resource")

@@ -7,14 +7,7 @@ import java.time.LocalDateTime;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * <p>
- * 客户表
- * </p>
- *
- * @author baomidou
- * @since 2024-05-17
- */
+
 @Getter
 @Setter
 public class Customer implements Serializable {

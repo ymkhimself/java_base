@@ -2,19 +2,13 @@ package org.kkhimself.java_base.model;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+
 import java.io.Serializable;
 import java.time.LocalDateTime;
+
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * <p>
- * 账号表
- * </p>
- *
- * @author baomidou
- * @since 2024-05-17
- */
 @Getter
 @Setter
 public class Account implements Serializable {

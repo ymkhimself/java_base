@@ -12,6 +12,7 @@ public class CodeGenerator {
                 .globalConfig(builder -> builder
                         .outputDir(Paths.get(System.getProperty("user.dir")) + "/src/main/java/")
                         .commentDate("yyyy-MM-dd").disableOpenDir()
+                        .author("ymk")
                 )
                 .packageConfig(builder -> builder
                         .parent("org.kkhimself.java_base")
