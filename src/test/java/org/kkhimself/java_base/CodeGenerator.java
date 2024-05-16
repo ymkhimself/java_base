@@ -7,13 +7,13 @@ import java.nio.file.Paths;
 
 public class CodeGenerator {
     public static void main(String[] args) {
-        FastAutoGenerator.create("localhost:3306/test", "root", "Ymk0910!")
+        FastAutoGenerator.create("jdbc:mysql://localhost:3306/test", "root", "Ymk0910!")
                 .globalConfig(builder -> builder
-                        .outputDir(Paths.get(System.getProperty("user.dir")) + "/src/main/java/org/java_base")
+                        .outputDir(Paths.get(System.getProperty("user.dir")) + "/src/main/java/")
                         .commentDate("yyyy-MM-dd")
                 )
                 .packageConfig(builder -> builder
-                        .parent("com.baomidou.mybatisplus")
+                        .parent("org.kkhimself.java_base")
                         .entity("model")
                         .mapper("mapper")
                         .service("service")
