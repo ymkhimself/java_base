@@ -15,10 +15,7 @@ public class CodeGenerator {
                 .packageConfig(builder -> builder
                         .parent("org.kkhimself.java_base")
                         .entity("model")
-                        .mapper("mapper")
-                        .service("service")
-                        .serviceImpl("service.impl")
-                        .xml("mapper.xml")
+                        .mapper("dao")
                 )
                 .strategyConfig(builder -> builder
                         .entityBuilder()
